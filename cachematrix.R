@@ -1,5 +1,7 @@
 ## Matrix inversion is a costly compution and there could be benefit to caching the inverse of a matrix vs. computing repeatedly
 ## Assignment#2: pair of functions that will cache inverse of a matrix
+#inverse of a matrix: [a b] >>> 1/(det)*[d -b]
+#                     [c d]             [-c a]
 
 ## creates a special matrix object that can cache its matrix
 
